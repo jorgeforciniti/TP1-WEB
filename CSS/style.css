@@ -35,6 +35,7 @@ a{
 .activo {
     background-color: grey;
 }
+
 #tabla{
     border: 1px solid red;
     padding: 1rem 2rem;
@@ -42,6 +43,8 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Agregue esto para centrar la tabla*/
@@ -49,3 +52,52 @@ div.center table{
     margin: 0 auto;
     text-align: left;
 }
+
+th{
+    border:1px solid black;
+}
+td{
+    padding: 2px;
+    text-transform: capitalize;
+    border:1px solid black;
+}
+
+tr:nth-child(odd){
+    background: grey;
+}
+ 
+tr:nth-child(even){
+    background: #FFFFFF;
+}
+
+footer{
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+.imagenes{
+    width: 100%;
+    margin:auto;
+}
+
+.tarjeta{
+    float: left;
+    margin: 1em;
+    border: black 1px solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.foto{
+    display:block;
+    margin:auto;
+    width: 175px;
+    height: 175px;
+}
+
+.seccion{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
