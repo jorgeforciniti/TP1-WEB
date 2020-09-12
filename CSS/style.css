@@ -34,11 +34,11 @@ a{
 }
 
 .activo {
-    background-color: grey;
+    background-color: rgb(131, 131, 131);
 }
 
 #tabla{
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 1rem 2rem;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -46,6 +46,10 @@ a{
     text-align: center;
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+#tabla tr:hover td{
+    background-color:  yellow;
 }
 
 /* Agregue esto para centrar la tabla*/
@@ -75,11 +79,6 @@ footer{
     overflow: hidden;
     width: 100%;
     padding: 20px 20px 20px 20px;
-}
-
-.imagenes{
-    width: 100%;
-    margin:auto;
 }
 
 .tarjeta{
