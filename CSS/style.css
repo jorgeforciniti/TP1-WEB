@@ -4,15 +4,15 @@
 li{
     width: 10%;
     list-style: none;
-    text-align: right;
+    text-align: right; 
 }
 
 li :hover{
-        background-color: rgb(230, 69, 69);
-       
+        background-color: gray;  
     }
 
-ul {
+header ul{
+    padding-left:0px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -34,11 +34,12 @@ a{
 }
 
 .activo {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(118, 157, 189);
 }
 
 #tabla{
     border: 1px solid black;
+    background-color: #333;
     padding: 1rem 2rem;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,8 +59,14 @@ div.center table{
     text-align: left;
 }
 
+#listado{
+    color: #D3D3D3;
+}
+
 th{
     border:1px solid black;
+    background-color: #D3D3D3;
+    text-transform: uppercase;
 }
 td{
     padding: 2px;
@@ -68,7 +75,7 @@ td{
 }
 
 tr:nth-child(odd){
-    background: grey;
+    background: #D3D3D3;
 }
  
 tr:nth-child(even){
