@@ -32,8 +32,8 @@ a{
     text-align: center;
 }
 
-li > a:active:before {
-    background-color: blue;
+.activo {
+    background-color: grey;
 }
 #tabla{
     border: 1px solid red;
