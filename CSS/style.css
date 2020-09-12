@@ -32,7 +32,7 @@ a{
     text-align: center;
 }
 
-li > a > a:active:before {
+li > a:active:before {
     background-color: blue;
 }
 #tabla{
