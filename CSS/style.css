@@ -32,6 +32,9 @@ a{
     text-align: center;
 }
 
+li > a > a:active:before {
+    background-color: blue;
+}
 #tabla{
     border: 1px solid red;
     padding: 1rem 2rem;
@@ -46,22 +49,3 @@ div.center table{
     margin: 0 auto;
     text-align: left;
 }
-
-th{
-    background-color: #555  ;
-    text-transform: uppercase;
-}
-
-td{
-    padding: 2px;
-    text-transform: capitalize;
-}
-
-tr:nth-child(odd){
-    background: grey;
-}
- 
-tr:nth-child(even){
-    background: #FFFFFF;
-}
-
