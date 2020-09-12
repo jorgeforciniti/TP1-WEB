@@ -1,0 +1,67 @@
+:root{
+    font-family: 'Roboto', sans-serif;;
+}
+li{
+    width: 10%;
+    list-style: none;
+    text-align: right;
+}
+
+li :hover{
+        background-color: rgb(230, 69, 69);
+       
+    }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagenes {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+#tabla{
+    border: 1px solid red;
+    padding: 1rem 2rem;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Agregue esto para centrar la tabla*/
+div.center table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+th{
+    background-color: #555  ;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+tr:nth-child(odd){
+    background: grey;
+}
+ 
+tr:nth-child(even){
+    background: #FFFFFF;
+}
+
