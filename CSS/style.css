@@ -95,8 +95,8 @@ footer{
 
 .tarjeta{
     float: left;
-    margin: 1em;
-    border: black 1px solid;
+    margin: 2em;
+    border: black 2px solid;
     padding: 5px 5px 5px 5px;
 }
 
@@ -107,7 +107,7 @@ footer{
     height: 175px;
 }
 
-.seccion{
+section .seccion{
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     justify-content:center;
@@ -115,4 +115,5 @@ footer{
 
 #imgfoot{
     float: right;
+    padding: 0em 1em 0em 0em;
 }
