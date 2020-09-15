@@ -1,14 +1,16 @@
 :root{
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
+
 li{
-    width: 10%;
+    width: 11%;
     list-style: none;
-    text-align: right; 
+    text-align: center; 
 }
 
 li :hover{
-        background-color: gray;  
+        background-color: #4a4d55;
+        color: white;
     }
 
 header ul{
@@ -16,10 +18,13 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: rgb(128, 123, 123);
 }
 
 a{
     text-decoration: none;
+    display: block;
+    padding: 5px;
 }
 
 .imagenes {
@@ -34,7 +39,8 @@ a{
 }
 
 .activo {
-    background-color: rgb(118, 157, 189);
+    background-color:#c7bd93;
+ 
 }
 
 #tabla{
@@ -53,7 +59,6 @@ a{
     background-color:  yellow;
 }
 
-/* Agregue esto para centrar la tabla*/
 div.center table{
     margin: 0 auto;
     text-align: left;
@@ -108,3 +113,6 @@ footer{
     justify-content:center;
 }
 
+#imgfoot{
+    float: right;
+}
